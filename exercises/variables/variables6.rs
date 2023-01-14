@@ -1,9 +1,9 @@
 // variables6.rs
 // Execute `rustlings hint variables6` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
 
-const NUMBER = 3;
+static NUMBER:i32 = 3;
 fn main() {
+    static NUMBER: &str = "three";
     println!("Number {}", NUMBER);
 }
